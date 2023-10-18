@@ -1,14 +1,14 @@
 :root {
-  --cinza: #aaa;
+  --cinza: #ff00dd;
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
-  --branca: #fff;
+  --branca: #5900ff;
   --luz: rgb(229, 255, 0);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #6f00ff 0%,#ff0095 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,8 +23,8 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+  background: linear-gradient(to bottom, #f300d3 0%,#8c00ff 100%);
+  box-shadow: 6px 8px 0 6px #6f00ff, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
@@ -64,4 +64,67 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+.tecla_pom{
+  background-image: url(/images/boca09.png);
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_clap{
+  background-image: url(/images/como\ e\ amuiiiiigo.jpeg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_tim{
+  background-image: url(/images/corsa\ rosa.jpeg);
+  background-size: 127%;
+  background-repeat: no-repeat;
+  background-position: center;
+} 
+
+.tecla_puff{
+  background-image: url(/images/ea-sports-logo.webp);
+  background-size: 127%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_splash{
+  background-image: url(/images/mcale.jpeg);
+  background-size: 127%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_toim{
+  background-image: url(/images/messi.jpeg);
+  background-size: 127%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_psh{
+  background-image: url(/images/87551dac549c4997b6c9e2314fab5bc3_c5_1000x1000.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_tic{
+  background-image: url(/images/toninho.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tecla_tom{
+  background-image: url(/images/whats.png);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
